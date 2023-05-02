@@ -31,7 +31,7 @@ npm run build
 npm start
 ```
 
-[architecture diagram](https://drive.google.com/file/d/15mILiUbRpFdHnTfoW-R0H7jHuVbLYNOp/view?usp=sharing)
+[architecture diagram](https://drive.google.com/uc?export=view&id=15mILiUbRpFdHnTfoW-R0H7jHuVbLYNOp)
 
 ### Back End Files
 1. server.js
