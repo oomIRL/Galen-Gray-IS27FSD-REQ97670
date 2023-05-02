@@ -44,7 +44,7 @@ export default {
                 name: this.$refs.name.value,
                 title: this.$refs.title.value,
                 employeeid: this.$refs.employeeid.value,
-                position: this.employee.level,
+                position: this.employee.position,
                 level: this.employee.level,
                 lead: this.employee.lead
             }
