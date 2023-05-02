@@ -31,7 +31,7 @@ npm run build
 npm start
 ```
 
-TODO: An architecture diagram
+[architecture diagram](https://drive.google.com/file/d/15mILiUbRpFdHnTfoW-R0H7jHuVbLYNOp/view?usp=sharing)
 
 ### Back End Files
 1. server.js
@@ -87,7 +87,5 @@ DELETE host/staff/:id   // deletes staff member with matching ID
 The Frontend component displays a 5-level staff directory. The staff are displayed in a tree structure hierarchy.
 Clicking the name of an employee will open a modal dialog allowing the user to Edit employee/position details. The position can also be marked as Vacant.
 The employee can also be deleted if they're below Director-level and no staff are directly below them.
-
 <sub>Note: Deletion doesn't update the existing position number fields, so they can get messed up. But, since deletion wasn't a requiement I consider this more of a feature than a bug.</sub>
-
 Oh, and clicking the background will close the modal dialogs.
