@@ -50,7 +50,7 @@ export default {
             }
             // send post request to the api server
             try {
-                const res = await fetch(process.env.VUE_APP_API_URL + ':' + process.env.VUE_APP_API_PORT + '/staff/' + this.employee._id, {
+                const res = await fetch(process.env.VUE_APP_API_URL + '/staff/' + this.employee._id, {
                     method: "put",
                     headers: {
                         "Content-Type": "application/json",
@@ -72,7 +72,7 @@ export default {
         async onDelete() {
             // send delete request to the api server
             try {
-                const res = await fetch(process.env.VUE_APP_API_URL + ':' + process.env.VUE_APP_API_PORT + '/staff/' + this.employee._id, {
+                const res = await fetch(process.env.VUE_APP_API_URL + '/staff/' + this.employee._id, {
                     method: "delete"
                 })
                 if (!res.ok)

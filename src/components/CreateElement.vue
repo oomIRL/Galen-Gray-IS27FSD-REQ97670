@@ -48,7 +48,7 @@ export default {
             }
             // send post request to the api server
             try {
-                const res = await fetch(process.env.VUE_APP_API_URL + ':' + process.env.VUE_APP_API_PORT + '/staff', {
+                const res = await fetch(process.env.VUE_APP_API_URL + '/staff', {
                     method: "post",
                     headers: {
                         "Content-Type": "application/json",

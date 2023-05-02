@@ -28,7 +28,7 @@ export default {
     async GetAllStaff() {
       // send get request to the api server
       try {
-        let staffData = await fetch(process.env.VUE_APP_API_URL + ':' + process.env.VUE_APP_API_PORT + '/staff')
+        let staffData = await fetch(process.env.VUE_APP_API_URL + '/staff')
         if (!staffData.ok) {
           throw Error('Fetching Staff data from API server Failed')
         }

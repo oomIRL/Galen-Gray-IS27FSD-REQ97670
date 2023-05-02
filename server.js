@@ -4,9 +4,9 @@ const Staff = require('./models/staff');
 require('dotenv').config();
 const cors = require('cors');
 const corsOptions ={
-   //origin:'*', 
-   credentials: true,
-   origin: true,
+   origin:'*'
+   //credentials: true,
+   //origin: true,
 }
 
 const app = express();
